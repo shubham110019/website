@@ -1,0 +1,21 @@
+.imgbox{
+	height:300px;
+	border:1px dotted grey;
+	text-align: center;
+	position: relative;
+	line-height: 300px;
+}
+.image-hover{
+position: absolute;
+top: 0;
+background: #00000094;
+height: 100%;
+width: 100%;
+display:none;
+}
+.imgbox:hover .image-hover{
+	display:block;
+}
+.mt-20{
+	margin-top:20px;
+}
